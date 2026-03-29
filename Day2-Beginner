@@ -1,0 +1,38 @@
+What to do
+Create an HTML file with a form containing:
+- Text input for name (with label)
+- Email input for email (with label)
+- Textarea for message
+- A submit button
+Open it in your browser and verify all fields work.
+Expected outcome
+
+
+
+<html>
+<head>
+    <title>Simple Form</title>
+</head>
+<body>
+
+    <h2>Contact Form</h2>
+
+    <form>
+        <!-- Name -->
+        <label>Name:</label><br>
+        <input type="text" id="name" name="name"><br><br>
+
+        <!-- Email -->
+        <label>Email:</label><br>
+        <input type="email" id="email" name="email"><br><br>
+
+        <!-- Message -->
+        <label>Message:</label><br>
+        <textarea id="message" name="message"></textarea><br><br>
+
+        <!-- Submit -->
+        <button type="submit">Submit</button>
+    </form>
+
+</body>
+</html>
