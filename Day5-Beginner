@@ -1,0 +1,16 @@
+Open https://the-internet.herokuapp.com in your browser.
+Without opening DevTools yet, scroll through the home page and list every
+interactive element you can see: buttons, links, inputs, checkboxes, etc.
+Write down at least 8 elements and describe what each one does.
+
+
+
+Links: Click on Add remove elements
+Buttons: Add button (https://the-internet.herokuapp.com/add_remove_elements/)
+Images: https://the-internet.herokuapp.com/broken_images
+Checkboxes: https://the-internet.herokuapp.com/checkboxes
+File download: https://the-internet.herokuapp.com/download
+File upload: https://the-internet.herokuapp.com/upload
+Floating Menu: https://the-internet.herokuapp.com/floating_menu
+Hovering text: https://the-internet.herokuapp.com/hovers
+Input field:  https://the-internet.herokuapp.com/inputs
