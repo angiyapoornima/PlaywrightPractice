@@ -1,0 +1,71 @@
+Create a blog article page using only semantic HTML:
+- <header>, <nav>, <main>, <article>, <aside>, <footer>
+- Use <time> for dates, <address> for author info
+- Add ARIA labels where appropriate
+- Include a skip-to-content link
+Validate with a browser accessibility checker.Create a blog article page using only semantic HTML:
+- <header>, <nav>, <main>, <article>, <aside>, <footer>
+- Use <time> for dates, <address> for author info
+- Add ARIA labels where appropriate
+- Include a skip-to-content link
+Validate with a browser accessibility checker.
+
+
+<!DOCTYPE html>
+<html>
+<body>
+
+<!-- Skip link -->
+<a href="#main">Skip to content</a>
+
+<!-- Header -->
+<header>
+  <h1>My Blog</h1>
+
+  <!-- Navigation -->
+  <nav aria-label="Main menu">
+    <a href="#">Home</a> |
+    <a href="#">Articles</a> |
+    <a href="#">About</a>
+  </nav>
+</header>
+
+<!-- Main Content -->
+<main id="main">
+
+  <!-- Article -->
+  <article>
+    <h2>What is Semantic HTML?</h2>
+
+    <p>
+      Published on <time datetime="2026-03-29">March 29, 2026</time>
+    </p>
+
+    <p>
+      Semantic HTML means using meaningful tags like header, nav, and article.
+    </p>
+
+    <!-- Author info -->
+    <address>
+      Written by Poornima
+    </address>
+  </article>
+
+  <!-- Aside -->
+  <aside aria-label="Related links">
+    <h3>Related</h3>
+    <ul>
+      <li><a href="#">Accessibility Basics</a></li>
+      <li><a href="#">HTML Tips</a></li>
+    </ul>
+  </aside>
+
+</main>
+
+<!-- Footer -->
+<footer>
+
+</footer>
+
+</body>
+</html>
