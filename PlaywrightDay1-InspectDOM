@@ -1,0 +1,14 @@
+URL: irctc.co.in
+
+1. The <head> section and list 3 things in it
+<title>IRCTC – Official Indian Railway Catering & Tourism Corporation Portal</title>
+<meta name="keywords" content="IRCTC, irctc, IRCTC booking, IRCTC train ticket booking, book train tickets online, Indian Railways online ticket booking, IRCTC login, railway ticket reservation, Tatkal booking, PNR status check, IRCTC refund rules, train availability, train tickets">
+<meta name="Description" content="Book train tickets online instantly on IRCTC — the official Indian Railways online ticketing portal."> (search engine optimization)
+
+2. The main content wrapper element is <app-root>  (Because this is an Angular JS site)
+
+3. A form element (if any) and its child inputs (This is the from station)
+<input aria-autocomplete="list" role="searchbox" aria-haspopup="true" class="ng-tns-c68-7 ui-inputtext ui-widget ui-state-default ui-corner-all ui-autocomplete-input ng-star-inserted" autocomplete="off" type="text" aria-controls="pr_id_1_list" aria-expanded="false" aria-activedescendant="p-highlighted-option" aria-label="Enter From station. Input is Mandatory.">
+
+
+Advanced
