@@ -1,0 +1,13 @@
+Visit a JavaScript-heavy site (e.g., a React or Vue app). Right-click → View Page Source. Then open DevTools → Elements.
+Compare what you see — the source will show minimal HTML while the DOM shows the fully rendered page.
+Write a short explanation of why they differ and what this means for test automation.
+
+URL: Facebook.com
+This site is very Java script heavy. 
+The source shows HTML tags, <script type="application/json" data-content-len="83" data-sjs="" data-processed="1">{"require":[["qplTimingsServerJS",null,null,["7622659828723731736","tierOneEnd"]]]}</script>
+Why they differ: Modern websites use Java script to dynamically generate and display content after page loads instead of sending full html from Server
+
+What this means for automation:
+1. Elements may not display immediately after launching page. so we need to use wait. 
+2. Locators can be dynamic. 
+3. API testing is more useful in these cases. 
