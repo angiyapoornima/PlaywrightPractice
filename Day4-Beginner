@@ -1,0 +1,25 @@
+Open https://the-internet.herokuapp.com/ in DevTools. Write CSS selectors to target:
+1. The page heading
+2. All links on the page
+3. The first link only (using :first-child)
+4. Any element by its ID
+5. Any element by its class
+Verify each selector in the Console using document.querySelector().
+
+
+
+h1: selects heading
+All links are selected by //a 
+The first link is selected by ul li:first-child a
+Any element by its id="page-footer
+any element by its class  class="heading" 
+Verify each selector in the Console using document.querySelector().- document.querySelector(".heading") but this ddidnt work.
+
+
+
+
+
+
+
+
+
