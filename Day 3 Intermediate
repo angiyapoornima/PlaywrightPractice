@@ -1,0 +1,54 @@
+
+- An iframe embedding a YouTube video
+- An image with alt text
+- A <details>/<summary> accordion element
+- A <figure> with <figcaption>
+Test that the iframe loads and the accordion expands/collapses.
+
+
+
+
+
+
+<!DOCTYPE html>
+<html>
+<head>
+    <title>Simple Page of Links by Poornima</title>
+</head>
+
+<body>
+
+<h2>YouTube Video</h2>
+
+<!-- Iframe -->
+<iframe width="300" height="200"
+src="https://www.youtube.com/embed/tgbNymZ7vqY">
+</iframe>
+
+<br><br>
+
+<!-- Image with alt -->
+<h2>Image</h2>
+<img src="https://tse1.mm.bing.net/th/id/OIP.I-qC7OzdAMhriVu9gOOySwHaEK?rs=1&pid=ImgDetMain&o=7&rm=3" alt="Sample Image">
+
+<br><br>
+
+<!-- Details / Summary -->
+<h2>More Info</h2>
+<details>
+    <summary>Click to expand</summary>
+    <p>This is hidden content. It appears when you click.</p>
+</details>
+  
+  <br><br>
+
+<!-- Figure with caption -->
+<h2>Figure Example</h2>
+<figure>
+    <img src="https://tse1.mm.bing.net/th/id/OIP.I-qC7OzdAMhriVu9gOOySwHaEK?rs=1&pid=ImgDetMain&o=7&rm=3" alt="Example Image">
+    <figcaption>This is an image with a caption</figcaption>
+</figure>
+
+</body>
+</html>
+  
