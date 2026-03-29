@@ -1,0 +1,9 @@
+On any web application, write selectors using:
+1. Attribute selector: [type="email"]
+2. Descendant combinator: .form input
+3. :nth-child(n) to select specific table rows
+4. Sibling combinator: h2 + p
+5. :not() pseudo-class
+Test each in DevTools and note what it selects.
+
+
