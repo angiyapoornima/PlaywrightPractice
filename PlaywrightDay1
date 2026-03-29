@@ -1,0 +1,34 @@
+What to do
+Open your browser DevTools (F12) → Network tab. Visit any website and watch the requests appear. Identify the initial HTML request, then CSS and JS files that follow.
+Write down: the URL, status code, and content type of the first 5 requests.
+Expected outcome
+A list of 5 network requests with their URL, status (200/304), and type (document/stylesheet/script).
+
+Request URL: www.google.com
+status code: 200
+
+
+Network request 1: 
+URL:https://www.gstatic.com/og/_/ss/k=og.asy.td_rzgIyaAQ.L.W.O/m=ll_bdm,ll_tdm,adcgm3,ll_fw,abld/excm=/d=1/ed=1/ct=zgms/rs=AA2YrTtoa50IX0QtFtEg6_eOzsn1KDMaLg
+Status: 200
+Type: stylesheet
+
+Network request 2: 
+URL: data:image/gif;base64,R0lGODlhAQABAID/AMDAwAAAACH5BAEAAAAALAAAAAABAAEAAAICRAEAOw==
+Status: 200 OK (from memory cache)
+Type:gif
+
+Network request 3: 
+URL:https://accounts.google.com/RotateCookiesPage?og_pid=538&rot=3&origin=https%3A%2F%2Fwww.google.com&exp_id=0
+Status: 200 OK
+Type:document
+
+Network request 4: 
+URL:https://www.google.com/xjs/_/js/k=xjs.hd.en_GB.DXBKHrzt0Ns.2019.O/ck=xjs.hd.v9R-ZRyrML4.L.W.O/am=AIAAAQAAAAAAAAAAAgAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAACAAAAACEAAAAIACTAGEQCAAAAAAAAOIABQAQAAAAAAAAAAAAAAAgEBAAAABAAAAAAAAAIAAAAAAQAAAAEAAAADAAEAAURAAAAGBQAAAAAAAAEAAAAAAAAAAECEAAAAIAAA_zAwBgAAAACAIQkDgAAgAAAAYcQCAAAoAAAAQIAAAAAAAACIIAECAAgYAAIAABAAAAAAAAgAEEIQEKCAAAABAAgAAAAAAAAAgYAAAAAAAAQEAAICIYAAAAAABBQIAAIAgQAECAAAGoEMAACQCBAAAEQHAAAgAACAAAAAAAAAAAAAAAA4AQAIBAAASAB8EGEEAAABAAAAAHQACDxgSEEBAAAAAAAAAAAAAAAAAAAAAABAgAIwFxIoCIAAAAAAAAAAAAAAAAAAAAAAAAAAAAAIbQoAAAAAALAY/d=0/dg=0/ujg=1/rs=ACT90oHMevaA7ZJb5Gps7zCVIL5_0o8FFQ/m=sy1hg,sy1ht,WlOj5b,sy1is,sy1ir,y4xy3,sy1ik,sy1il,sy1ii,sy1ij,sy1iw,sy1iv,sy1iu,qVQl0c,Ko78Df,zOsCQe,sy1j8,sy1ac,sy1m6,syyi,sy1jb,sy1ja,sy1j7,sy1jx,sy1jw,sy1ju,sy1jr,sy1gt,sy1jp,syq0,sylt,sy1ln,sy1k9,sy1jl,sy1lf,sy1ji,sy1kn,sy1jo,sy1jj,sy1ih,sy1bu,sy1bv,sy1jh,sy1jd,sy1ko,sy1js,sy1jm,sy1jn,sy14m,sy14n,sy14p,sy14q,sy14l,sy14h,sy14g,sy142,syf1,sy141,sy145,sy15q,sy1lb,sy1l7,sy1jc,sy1lc,sy1la,sy1l9,sy1l8,sy1je,sy1kz,sy1ky,sy1j1,sy1j2,sy1kt,sy1ku,sy1ks,sy1k7,sy1kx,sy1kq,sy1kr,sy1l1,syg1,sy1j4,sy1kj,sy1k1,sy1jz,sy1jy,sy1k2,sy1jt,sy1kh,sy1kg,sy1kf,sy1kd,sy1kb,sy1k8,sy1k5,sy1k4,sy1jg,sy1jf,sy1j3,syyq,syyl,syyk,syyj,syyh,syyg,syye,jNZDL,sy15b,sy15a,rtH1bd,ZgGg9b,dIoSBb,sy1wd,sy1wn,syzp,sy2ek,sy2ej,b6knsb,sy2eg,sy2ef,syy3,sy1sa,sysz,syqy,syny,sy13d,sy1wm,sy1n9,sy13b,syfl,sydu,syds,syai,sydw,JKoKVe,pXdRYb,sy3lc,syaj,syag,sy96,O1Gjze,TtcOte,wR5FRb,kQvlef,syfj,syfg,syfc,syfb,sycp,syfa,sydn,syf9,syf8,syf7,syf6,syf4,syf2,syf0,syey,sybb,syb0,syb2,syb1,syb7,syaq,syao,syez,syex,syev,sydj,syeu,syet,syei,syer,sye8,sydz,sye0,syeq,syci,syeg,syep,sye3,sye4,syen,sye2,syem,sydk,sydl,sye5,sydx,syef,syek,syee,syej,syed,syec,sye1,syea,sye9,sye7?xjs=s3
+Status: 200
+Type:script
+
+Network request 5: 
+URL: https://www.google.com/generate_204?NKvoJA
+Status 204 No Content
+Type:text/plain
