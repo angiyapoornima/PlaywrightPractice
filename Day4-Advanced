@@ -1,0 +1,15 @@
+Pick a real web application (e.g., GitHub, Trello, or a demo app). For 10 different interactive elements, write:
+- The best CSS selector for test automation
+- Why you chose that selector (stability, readability)
+- An alternative selector as backup
+Create a markdown table documenting your choices.
+
+
+URL: github.com
+The best CSS selector for test automation is ID
+reason for selecting: It is very stable and unique. 
+Backup: we can use attributes like type, or Href. 
+
+Element: Username    Best CSS selector: id     Why this selector:stable and unique    Alternative Selector:name=l"login"
+Element: Password    Best CSS selector: id     Why this selector:stable and unique    Alternative Selector:type="password"
+Element: Sign in Button    Best CSS selector: input[type="submit"]     Why this selector: because there is only one submit button    Alternative Selector:name=.btn.primary
