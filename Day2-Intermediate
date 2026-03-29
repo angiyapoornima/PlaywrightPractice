@@ -1,0 +1,94 @@
+Build a registration page
+expand_less
+What to do
+Create an HTML page with:
+- A header with a logo/title
+- A registration form with: name, email, password, confirm password, date of birth (date input), gender (radio buttons), interests (checkboxes), country (dropdown select)
+- A submit button
+Use semantic HTML elements (<header>, <main>, <form>).
+Expected outcome
+
+
+
+
+<!DOCTYPE html>
+<head>
+  <title>Registration Page</title>
+</head>
+
+<body>
+
+    <!-- Header -->
+    <header>
+        <h1>Join Us - Bug Crushers Website Registration</h1>
+        <p>Join us by filling the form below</p>
+    </header>
+
+    <!-- Main Content -->
+    <main>
+
+        <form>
+
+            <!-- Name -->
+            <label>First Name:</label><br>
+            <input type="text" id="fname" name="firstname" required><br><br>
+            <label>Last Name:</label><br>
+            <input type="text" id="lname" name="lastname" required><br><br>
+
+            <!-- Email -->
+            <label >Email:</label><br>
+            <input type="email" id="email" name="email" required><br><br>
+
+            <!-- Password -->
+            <label>Password:</label><br>
+            <input type="password" id="password" name="password" required><br><br>
+
+            <!-- Confirm Password -->
+            <label>Confirm Password:</label><br>
+            <input type="password" id="confirmPassword" name="confirmPassword" required><br><br>
+
+            <!-- Date of Birth -->
+            <label> Date of Birth:</label><br>
+            <input type="date" id="dob" name="dob"><br><br>
+
+            <!-- Gender -->
+            <label>Gender:</label><br>
+            <input type="radio" id="male" name="gender" value="Male">
+            <label>Male</label><br>
+
+            <input type="radio" id="female" name="gender" value="Female">
+            <label>Female</label><br>
+
+            <input type="radio" id="other" name="gender" value="Other">
+            <label>Other</label><br><br>
+
+            <!-- Interests -->
+            <label>Interests:</label><br>
+            <input type="checkbox" id="coding" name="interests" value="Coding">
+            <label >Coding</label><br>
+
+            <input type="checkbox" id="learnplaywright" name="interests" value="Music">
+            <label >Learning Playwright</label><br>
+
+            <input type="checkbox" id="fun" name="interests" value="Just here for the company">
+            <label>Just here for the company</label><br><br>
+
+            <!-- Country -->
+            <label >Location:</label><br>
+            <select id="location" name="Location">
+                <option value="">--Select--</option>
+                <option value="Hyderabad">Hyderabad</option>
+                <option value="Chennai">Chennai</option>
+                <option value="Bangalore">Bangalore</option>
+                <option value="Others">Others</option>
+            </select><br><br>
+
+            <!-- Submit -->
+            <button type="submit">Register</button>
+
+        </form>
+
+    </main>
+
+</body>
+</html>
