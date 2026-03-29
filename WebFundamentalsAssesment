@@ -14,8 +14,11 @@ class selecter is .class. Can be used on multiple elements and can be called for
 
 
 Write a CSS selector that targets all <input> elements inside a <form> with the class 'login-form'.
-
-
+<form class="login-form">
+  <input type="text">
+  <input type="password">
+</form>
+The selector .login-form input selects all input elements inside a form with the class 'login-form'.
 
 
 
@@ -30,6 +33,53 @@ When a URL is entered, the browser first sends a request to the server. (This is
 The server sends data back. Server returns HTML, CSS and Java Script. This is teh content of the page. 
 Browser renders the page: Rads the HTML, Applie Styles and Runs Java script. 
 DOM is created by the Browser (the page structure). Converts the HTML code into tree like structure so that Javascript can interact with it. 
+
+
+
+What is the difference between inline, internal, and external CSS? Which is most common in production?
+Inline CSS is written inside the element, Interal CSS is written inside the <style> External CSS is from an external source like a seperate file. 
+We can use inline css for single element, internal CSS for a group of elements and external CSS for multiple Pages
+
+The most common one in production is external CSS.
+
+
+Write a CSS selector using :nth-child() to select the 3rd row in a table body.
+tbody tr:nth-child(3)
+
+
+What are semantic HTML elements? Name 3 examples and explain why they matter.
+lightbulb
+Hint: Elements like <nav>, <main>, <article> give meaning to structure.
+Semantic HTML elements are tags that describe the meaning of content on a webpage. Examples include <nav>, <main>, and <article>. They are important because they improve code readability
+<nav>: Used for navigation links
+Example: menu, navbar
+<main>
+Used for the main content of the page
+Only one per page
+
+
+Question 9
+How would you use browser DevTools to find the CSS selector for a specific button on a page?
+lightbulb
+Hint: Right-click → Inspect → look at element attributes, classes, and IDs.
+To find a CSS selector, right-click the button and select Inspect. In DevTools, check the element’s id, class, or tag. Then use these attributes to create a CSS selector such as #id or .class.
+Eg., using ID
+#loginbtn
+
+Usingclass
+.btn
+
+Using CSS
+button.btn
+
+Question 10
+What is an iframe? Why does it create challenges for test automation?
+An iframe (inline frame) is an HTML element (<iframe>) used to embed another webpage inside the current webpage.
+It creates issues with automation because it has a seperate DOM structure. we need to explicitly switch to the iframe. This may have multiple issues like, embedded iframe may have a complex dom structure, or there might be restrictions on the iframe
+or there might be loading issues.
+
+
+
 
 
 
