@@ -1,0 +1,39 @@
+What does the DOM stand for, and why is it important for test automation?
+
+The full form of DOM is Document Object Model
+The DOM is a structure of a webpage that allows programs (like JavaScript or automation tools) to see and interact with elements.
+It is important for automation because 
+  1. It helps locate elements. 
+  2. Using Dom we can interact with elements like enter text or click buttons
+  3. It can validate results (visibility of elements etc.,)
+
+
+Explain the difference between an ID selector and a class selector in CSS. When would you use each?
+ID Selector user #id. It is unique identifier for an element. ID is not reusable
+class selecter is .class. Can be used on multiple elements and can be called for a group of elements. Class selector is resuable. 
+
+
+Write a CSS selector that targets all <input> elements inside a <form> with the class 'login-form'.
+
+
+
+
+
+What is the purpose of the <label> element in HTML, and how does it help with accessibility and testing?
+The label element is used to describe any field in a form. The labels are connected via the "for attribute" and playwright uses this. 
+Eg. <label for = "name" > Name </label>
+<input type="name" id="name">
+
+
+
+When a URL is entered, the browser first sends a request to the server. (This is sent using HTTP/HTTPS)
+The server sends data back. Server returns HTML, CSS and Java Script. This is teh content of the page. 
+Browser renders the page: Rads the HTML, Applie Styles and Runs Java script. 
+DOM is created by the Browser (the page structure). Converts the HTML code into tree like structure so that Javascript can interact with it. 
+
+
+
+
+
+
+
