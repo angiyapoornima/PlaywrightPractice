@@ -1,0 +1,20 @@
+// 1. const variables
+const name = "Poornima";
+const joinyear = 1984;
+const isStudent = true;
+
+// let variables
+let score = 95;
+let greeting;
+
+//typeof Date type
+console.log("Data Type of name:" + typeof name);
+console.log("Data Type of joinyear:" + typeof joinyear);
+console.log("Data Type of isStudent:" + typeof isStudent);
+console.log("Data Type of score:" + typeof score);
+console.log("Data Type of greeting:" + typeof greeting);
+
+// Template of the greeting
+greeting = "Hello, my name is " + name +  ". I joined fint in " + joinyear + ". Student status is: " + isStudent + "My score is " + score;
+
+console.log(greeting);
