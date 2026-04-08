@@ -6,4 +6,10 @@ On any web application, write selectors using:
 5. :not() pseudo-class
 Test each in DevTools and note what it selects.
 
+Email:
+https://admin.sign-in.service.gov.uk/register/enter-email-address
+type in console: document.querySelector('[type="email"]');
 
+
+2. Descendant combinator
+document.querySelectorAll('.form input');
