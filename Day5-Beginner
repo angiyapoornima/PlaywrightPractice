@@ -14,3 +14,28 @@ File upload: https://the-internet.herokuapp.com/upload
 Floating Menu: https://the-internet.herokuapp.com/floating_menu
 Hovering text: https://the-internet.herokuapp.com/hovers
 Input field:  https://the-internet.herokuapp.com/inputs
+
+
+
+
+Open DevTools (F12) → Elements panel on https://the-internet.herokuapp.com.
+Find selectors for 5 elements using the simplest method possible:
+1. Any element by its ID (#id)
+2. Any element by a class (.class)
+3. An anchor <a> tag
+4. An <h1> or <h2> heading
+5. Any form input
+Verify each selector in Console with document.querySelector('your-selector').
+It should NOT return null.
+
+URL:https://the-internet.herokuapp.com/login
+1. Any element by its ID (#id): document.querySelector('#username');
+2. Any element by a class (.class): document.querySelector('.heading');
+<h1 class=​"heading">​Welcome to the-internet​</h1>​
+3. An anchor <a> tag: document.querySelector('a');output: <a href="https://github.com/tourdedave/the-internet"><img style="position: absolute; top: 0; right: 0; border: 0;" src="/img/forkme_right_green_007200.png" alt="Fork me on GitHub"></a>
+4. An <h1> or <h2> heading: document.querySelector('h1'); output: 
+<h1 class=​"heading">​Welcome to the-internet​</h1>​
+5. Any form input:  document.querySelector('input');
+Output: <input type=​"text" name=​"username" id=​"username">​
+
+
