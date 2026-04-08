@@ -1,0 +1,117 @@
+Question 1
+What is the difference between let, const, and var? When should you use each?
+let is scoped in a block. Value can change. Cannot re-declare in the block.
+It is initialized at the declaration. Value does not change and cannot be redeclared. 
+
+Question 2
+Write a function that takes a string and returns it reversed. Example: 'hello' → 'olleh'.
+function reverseString(str) {
+  return str.split('').reverse().join('');
+}
+console.log(reverseString('hello'));
+
+Question 3
+Explain template literals in JavaScript. Write an example that includes a variable and an expression.
+lightbulb
+Hint: Use backticks: `Hello ${name}, you are ${age + 1} next year`
+const name = "Poornima";
+const age = 40;
+const message = `Hello ${name}, you are ${age + 1} next year`;
+console.log(message);
+
+
+Question 4
+What will this code output and why? console.log(typeof null, typeof undefined, typeof NaN)
+Hint: null is 'object' (historical bug), undefined is 'undefined', NaN is 'number'.
+
+Code output: Object undefined number.
+Type of object is Null ( It is a JS historic bug). 
+Type of undefined is undefined.
+Type of NAN is (Not a number). However it is a number.
+
+
+Question 5
+Write a for loop that prints all even numbers from 1 to 20.
+Hint: Check if i % 2 === 0 inside the loop.
+Answer
+for (let i = 1; i <= 20; i++) {
+  if (i % 2 === 0) {
+    console.log(i);
+  }
+}
+
+
+Question 6
+What is the difference between == and ===? Give an example where they return different results.
+lightbulb
+Hint: '5' == 5 is true (type coercion), '5' === 5 is false (strict comparison).
+
+== compares the value
+=== compares the value and type. 
+
+'5' == 5 is true since the value is the same
+however '5'===5  is not true since the type is not the same (str vs Number)
+
+
+
+Question 7
+Write a switch statement that maps day numbers (1-7) to day names.
+switch (day) {
+    case 1:
+      return "Monday";
+    case 2:
+      return "Tuesday";
+    case 3:
+      return "Wednesday";
+    case 4:
+      return "Thursday";
+    case 5:
+      return "Friday";
+    case 6:
+      return "Saturday";
+    case 7:
+      return "Sunday";
+    default:
+      return "Invalid day";
+  }
+}
+
+console.log(getDayName(3));
+
+
+
+Question 8
+Explain what a ternary operator is. Rewrite this if/else as a ternary: if (score >= 60) { result = 'Pass' } else { result = 'Fail' }
+lightbulb
+Hint: const result = score >= 60 ? 'Pass' : 'Fail'
+A ternary operator is a short hand way of writing an if...else statement. 
+syntax: condition? value if true; value if false
+const result = score>=60? 'Pass':'Fail'
+
+
+
+Question 9
+What is the difference between for...in and for...of loops? When would you use each?
+lightbulb
+Hint: for...in iterates keys/indices, for...of iterates values. Use for...of for arrays.
+For in iterates the indices. 
+For of iterates the values.
+
+
+Question 10
+Write a function that takes an array of numbers and returns the sum. Use a loop.
+lightbulb
+Hint: Initialize total = 0, then loop and add each element.
+function sumArray(arr) {
+  let sum = 0;
+
+  for (let i = 0; i < arr.length; i++) {
+    sum += arr[i];
+  }
+
+  return sum;
+}
+
+console.log(sumArray([1, 2, 3, 4]));
+
+
